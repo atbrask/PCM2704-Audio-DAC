@@ -1,0 +1,22 @@
+PCM2704 Audio DAC v1.0
+
+Copyright (c) 2011 A. T. Brask
+
+Based on the circuit discussed at:
+http://www.head-fi.org/forum/thread/154844/pcm2704-usb-dac
+
+This a Open Hardware project. For details about OSHW, go to:
+http://freedomdefined.org/OSHW
+
+(I haven't yet decided which license to use, but unless I get some sort of revelation or serious head injury, it'll probably end up being GNU GPL.)
+
+The main reasons for me doing this have been to learn a few things:
+1) How to design a circuit. (Even though I cheated a bit...)
+2) How to use KiCAD.
+3) How to get a prototype PCB produced.
+4) How to solder SMD stuff.
+Now you have the opportunity to learn these things too by using (and perhaps extending) this project.
+
+Although simpler designs using the same chip exist, this is still a pretty straightforward implementation of a USB audio DAC using the quite popular Burr-Brown PCM2704 chip from TI. To drive the headphones it has a nice little 80mW amplifier chip from Maxim, the MAX4410. This amplifier is powered by its own separate 3.3v power supply based on an LT1763 from Linear Technology. All component values are (more or less) based on the available data sheets for these three chips.
+
+NOTE: This GitHub project will (probably) remain (mostly) empty until I get my first batch of PCBs back from the factory. Once I have verified that the board can be brought to a working state without causing major bodily harm and/or significant blood loss, I will publish the relevant KiCAD-files here along with a BOM and some basic assembly instructions.
