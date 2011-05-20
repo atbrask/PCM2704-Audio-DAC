@@ -1,0 +1,333 @@
+# EESchema Netlist Version 1.1 created  2011-04-14T21:53:02 CEST
+(
+ ( /4D250940 c_elec_5x5.3 C1 100uF
+  ( 1 VCC )
+  ( 2 GND )
+ )
+ ( /4D97B026 SM0805 C2 4.7nF
+  ( 1 /Shield )
+  ( 2 N-000011 )
+ )
+ ( /4D25098B SM0805 C3 10nF
+  ( 1 +3.3V )
+  ( 2 N-000020 )
+ )
+ ( /4D250B53 c_elec_4x5.3 C4 10uF
+  ( 1 +3.3V )
+  ( 2 GND )
+ )
+ ( /4D910B65 SM1206 C5 1uF
+  ( 1 /VDD )
+  ( 2 GND )
+ )
+ ( /4D910BC8 SM1206 C6 1uF
+  ( 1 GND )
+  ( 2 VCC )
+ )
+ ( /4D2A354B SM1206 C7 1uF
+  ( 1 GND )
+  ( 2 /VCCL )
+ )
+ ( /4D26415E SM0805 C8 22pF
+  ( 1 GND )
+  ( 2 /XTO )
+ )
+ ( /4D780BE6 SM1206POL C9 10uF
+  ( 1 N-000016 )
+  ( 2 N-000004 )
+ )
+ ( /4D780BEC SM1206POL C10 10uF
+  ( 1 N-000014 )
+  ( 2 N-000005 )
+ )
+ ( /4D264150 SM0805 C11 22pF
+  ( 1 /XTI )
+  ( 2 GND )
+ )
+ ( /4D2A3D0E SM1206 C12 1uF
+  ( 1 GND )
+  ( 2 /VCCP )
+ )
+ ( /4D78110B c_elec_4x5.3 C13 10uF
+  ( 1 /VCOM )
+  ( 2 GND )
+ )
+ ( /4D2A3536 SM1206 C14 1uF
+  ( 1 /VCCR )
+  ( 2 GND )
+ )
+ ( /4D264D8C SM1206 C15 2.2uF
+  ( 1 N-000002 )
+  ( 2 N-000028 )
+ )
+ ( /4D264DFD SM1206 C16 2.2uF
+  ( 1 N-000027 )
+  ( 2 GND )
+ )
+ ( /4D2647CB SM1206 C17 2.2uF
+  ( 1 +3.3V )
+  ( 2 GND )
+ )
+ ( /4D97952D USB_B J1 USB_1
+  ( 1 N-000010 )
+  ( 2 N-000007 )
+  ( 3 N-000009 )
+  ( 4 N-000011 )
+  ( 5 /Shield )
+  ( 6 /Shield )
+ )
+ ( /4D263CD3 SJ1-3523N J2 3.5MMJACK
+  ( 1 GND )
+  ( 2 /OUTL )
+  ( 3 /OUTR )
+ )
+ ( /4D264350 SM0805 L1 INDUCTOR
+  ( 1 VCC )
+  ( 2 N-000010 )
+ )
+ ( /4D26438C SM0805 L2 INDUCTOR
+  ( 1 N-000011 )
+  ( 2 GND )
+ )
+ ( /4D2A34C2 PIN_ARRAY_2X1 P1 CONN_2
+  ( 1 /DOUT )
+  ( 2 GND )
+ )
+ ( /4D7D3129 pin_array_3x2 P2 CONN_3X2
+  ( 1 N-000015 )
+  ( 2 //Suspend )
+  ( 3 N-000017 )
+  ( 4 //Suspend )
+  ( 5 N-000019 )
+  ( 6 //Suspend )
+ )
+ ( /4D97B012 SM0805 R1 1M
+  ( 1 /Shield )
+  ( 2 N-000011 )
+ )
+ ( /4D2A3BEA SM0805 R3 1.5k
+  ( 1 /DT )
+  ( 2 /VDD )
+ )
+ ( /4D780BF9 SM0805 R4 10k
+  ( 1 N-000004 )
+  ( 2 /Left )
+ )
+ ( /4D26412F SM0805 R5 1M
+  ( 1 /XTO )
+  ( 2 /XTI )
+ )
+ ( /4D780BFD SM0805 R6 10k
+  ( 1 N-000005 )
+  ( 2 /Right )
+ )
+ ( /4D780C68 SM0805 R7 10k
+  ( 1 /OUTR )
+  ( 2 /Right )
+ )
+ ( /4D780C79 SM0805 R8 10k
+  ( 1 /OUTL )
+  ( 2 /Left )
+ )
+ ( /4D250840 SO8N U1 LT1763
+  ( 1 +3.3V )
+  ( 2 +3.3V )
+  ( 3 GND )
+  ( 4 N-000020 )
+  ( 5 VCC )
+  ( 6 GND )
+  ( 7 GND )
+  ( 8 VCC )
+ )
+ ( /4D2628B0 SOT323-6L U2 USBUF02W6
+  ( 1 /D+ )
+  ( 2 GND )
+  ( 3 /D- )
+  ( 4 N-000007 )
+  ( 5 /VDD )
+  ( 6 N-000009 )
+ )
+ ( /4D262DEE SSOP28 U3 PCM2704DB
+  ( 1 /XTO )
+  ( 2 ? )
+  ( 3 /DT )
+  ( 4 /VDD )
+  ( 5 /DOUT )
+  ( 6 GND )
+  ( 7 /VDD )
+  ( 8 /D- )
+  ( 9 /D+ )
+  ( 10 VCC )
+  ( 11 GND )
+  ( 12 GND )
+  ( 13 /VCCL )
+  ( 14 N-000016 )
+  ( 15 N-000014 )
+  ( 16 /VCCR )
+  ( 17 GND )
+  ( 18 /VCOM )
+  ( 19 GND )
+  ( 20 /VCCP )
+  ( 21 GND )
+  ( 22 N-000019 )
+  ( 23 N-000017 )
+  ( 24 N-000015 )
+  ( 25 /VDD )
+  ( 26 /VDD )
+  ( 27 //Suspend )
+  ( 28 /XTI )
+ )
+ ( /4D2631E4 SSOP14 U4 MAX4410
+  ( 1 //Suspend )
+  ( 2 +3.3V )
+  ( 3 N-000002 )
+  ( 4 GND )
+  ( 5 N-000028 )
+  ( 6 N-000027 )
+  ( 7 N-000027 )
+  ( 8 /OUTL )
+  ( 9 +3.3V )
+  ( 10 /Left )
+  ( 11 /OUTR )
+  ( 12 //Suspend )
+  ( 13 /Right )
+  ( 14 GND )
+ )
+ ( /4D869715 Q_49U3HMS X1 12MHz_(18pF)
+  ( 1 /XTO )
+  ( 2 /XTI )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C1
+ CP*
+ SM*
+$endlist
+$component C2
+ SM*
+ C?
+ C1-1
+$endlist
+$component C3
+ SM*
+ C?
+ C1-1
+$endlist
+$component C4
+ CP*
+ SM*
+$endlist
+$component C5
+ SM*
+ C?
+ C1-1
+$endlist
+$component C6
+ SM*
+ C?
+ C1-1
+$endlist
+$component C7
+ SM*
+ C?
+ C1-1
+$endlist
+$component C8
+ SM*
+ C?
+ C1-1
+$endlist
+$component C9
+ CP*
+ SM*
+$endlist
+$component C10
+ CP*
+ SM*
+$endlist
+$component C11
+ SM*
+ C?
+ C1-1
+$endlist
+$component C12
+ SM*
+ C?
+ C1-1
+$endlist
+$component C13
+ CP*
+ SM*
+$endlist
+$component C14
+ SM*
+ C?
+ C1-1
+$endlist
+$component C15
+ SM*
+ C?
+ C1-1
+$endlist
+$component C16
+ SM*
+ C?
+ C1-1
+$endlist
+$component C17
+ SM*
+ C?
+ C1-1
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R3
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R4
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R5
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R6
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R7
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R8
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$endfootprintlist
+}
